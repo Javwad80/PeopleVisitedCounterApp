@@ -7,3 +7,7 @@ function numberVisited(){
 function save(){
     document.getElementById("result").innerHTML="Total Visiters of the Day "+count;
 }
+
+function reset(){
+    document.getElementById("count-el").innerHTML = 0;
+}
